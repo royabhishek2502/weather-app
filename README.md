@@ -2,6 +2,6 @@
 
 used Open Weather Api
 
-## Insporation
+## Inspiration
 
 https://www.youtube.com/watch?v=0wj5w4bgH-4
