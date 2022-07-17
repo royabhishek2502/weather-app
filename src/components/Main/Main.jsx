@@ -2,6 +2,7 @@ import './Main.css';
 import React, { useEffect, useState } from 'react';
 import Input from '../Input/Input';
 import axios from 'axios';
+import DateAndTime from '../utils/DateAndTime';
 
 const Main = () => {
 
@@ -85,7 +86,9 @@ const Main = () => {
                         </div>
                         <div className='weather_country'>
                             <h3>{country}</h3>
-                            <h2 className='weather_date'>4/30/2022, 2:05:24 PM</h2>
+                            <h2 className='weather_date'>
+                                <DateAndTime/>
+                            </h2>
                         </div>
                     </div>
                 </div>
